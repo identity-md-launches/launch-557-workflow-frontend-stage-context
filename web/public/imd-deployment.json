@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "launchId": "d2dd2377-07c2-484c-9285-b930e063453c",
+  "chainId": 11155111,
+  "sourceCommit": "11857c82827bde1587579679960e988ae029f005",
+  "attestationHash": "c94ceb2e217451f2486eba32977e8cfc7afb709999e87b0fa2368761ce05766e",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xfb4ec514a8464a30beccc3b07e2cdd694cbe8e93",
+      "abiHash": "080a024597f44fe49f129bd8658ba2ef79d81708789e9752ede941a8536de08a",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "Guestbook",
+      "address": "0x34f6772a4491dd9c5c03c66708e082cfe606262a",
+      "abiHash": "97d750b14ba1851051f0ada388153d7fcd7f18a76d198d491999239fc91bf52f",
+      "abiPath": "abi/Guestbook.json"
+    }
+  ],
+  "assets": [],
+  "poolKey": {
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xfb4ec514a8464a30beccc3b07e2cdd694cbe8e93",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "hooks": "0x1b7dae02cbe9ccd80ae77e1f51884a324f006000"
+  },
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  }
+}
